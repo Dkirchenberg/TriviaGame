@@ -9,7 +9,7 @@ setTimeout(fifteenSeconds, 1000*15);
 setTimeout(fiveSeconds, 1000*5);
 
 function thirtySeconds () {
-    $("#timer").append("<h2>About 30 seconds left!</h2>");
+    $("#timer").append("<h2>About 5 seconds left!</h2>");
 
 }
 
@@ -19,14 +19,13 @@ function fifteenSeconds () {
 }
 
 function fiveSeconds () {
-    $("#timer").append("<h2>About 5 seconds left!</h2>");
+    $("#timer").append("<h2>About 30 seconds left!</h2>");
 
 }
 
-
-
        
         $("#button-1a").on("click", function() {
+            console.log('clicked');
         alert("incorrect-Tallahassee");
 
    });
@@ -48,7 +47,7 @@ function fiveSeconds () {
 
     });
 
-    $("#button-3a").on("click", function() {
+        $("#button-3a").on("click", function() {
         alert("correct!");
 
     });
@@ -59,7 +58,7 @@ function fiveSeconds () {
 
     });
 
-    $("#button-4a").on("click", function() {
+        $("#button-4a").on("click", function() {
         alert("incorrect- the Everglades");
 
     });
